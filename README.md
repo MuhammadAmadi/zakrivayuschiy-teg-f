@@ -1,0 +1,1 @@
+https://muhammadamadi.github.io/zakrivayuschiy-teg-f/
