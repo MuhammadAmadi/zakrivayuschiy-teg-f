@@ -41,13 +41,14 @@
   align-items: center;
 }
 
-.logo__main {
+.header__logo-main {
   font-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
   flex-grow: 1;
 }
 
-.logo__subtitle {
+.header__logo-subtitle {
   font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  text-transform: uppercase;
 }
 
 .content {
@@ -205,23 +206,10 @@
 }
 
 .save-button__icon {
-  --icon-color: #fff;
   inline-size: 21px;
   block-size: 21px;
   mix-blend-mode: difference;
   z-index: 1;
-}
-
-.like-icon .core {
-  transition: fill 0.3s linear 0.03s;
-}
-
-.like-icon .main-body {
-  transition: fill 0.3s linear;
-}
-
-.like-icon .contour {
-  transition: fill 0.1s linear;
 }
 
 .dialog {
@@ -274,6 +262,34 @@
   display: block;
 }
 
+.filter-blur {
+  filter: blur(0.5rem);
+}
+
+.filter-contrast {
+  filter: contrast(200%);
+}
+
+.filter-grayscale {
+  filter: grayscale(0.8);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(20deg);
+}
+
+.filter-invert {
+  filter: invert(0.8);
+}
+
+.filter-sepia {
+  filter: sepia(0.9);
+}
+
+.filter-multiple {
+  filter: sepia(0.3) contrast(150%) hue-rotate(70deg) opacity(0.5);
+}
+
 @media (width <= 375px) {
 
   .save-button {
@@ -322,32 +338,4 @@
   .card__text {
     margin-block-start: 25.6px;
   }
-}
-
-.filter-blur {
-  filter: blur(0.5rem);
-}
-
-.filter-contrast {
-  filter: contrast(200%);
-}
-
-.filter-grayscale {
-  filter: grayscale(0.8);
-}
-
-.filter-hue-rotate {
-  filter: hue-rotate(20deg);
-}
-
-.filter-invert {
-  filter: invert(0.8);
-}
-
-.filter-sepia {
-  filter: sepia(0.9);
-}
-
-.filter-multiple {
-  filter: sepia(0.3) contrast(150%) hue-rotate(70deg) opacity(0.5);
 }
