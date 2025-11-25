@@ -1,1 +1,1 @@
-https://muhammadamadi.github.io/zakrivayuschiy-teg-f/
+https://github.com/muhammadamadi/zakrivayuschiy-teg-f
