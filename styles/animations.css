@@ -9,6 +9,7 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
 .like-icon:hover .core {
   fill: var(--contour-color);
   transition: fill 0.3s linear;
@@ -45,12 +46,15 @@
 }
 
 @keyframes scale-heart {
+
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.25);
   }
+
   100% {
     transform: scale(1);
   }
@@ -61,12 +65,15 @@
 }
 
 @keyframes sparks-opacity {
+
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
