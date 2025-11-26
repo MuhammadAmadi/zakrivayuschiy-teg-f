@@ -531,7 +531,7 @@
           <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
         </div>
         <form method="dialog">
-          <button class="dialog__button button" type="button">
+          <button class="dialog__button button" type="button" onclick="this.closest('.dialog').close()">
             <span class="button__text">OK</span>
           </button>
         </form>

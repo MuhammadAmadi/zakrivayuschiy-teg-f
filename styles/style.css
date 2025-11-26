@@ -339,3 +339,15 @@
     margin-block-start: 25.6px;
   }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .button:focus,
+  .card__icon-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+  }
+
+  .button:active::before {
+    transform: scaleX(1);
+  }
+}
